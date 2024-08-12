@@ -109,7 +109,7 @@ if __name__ == '__main__':
                           action="store")
     
     parser.add_argument('-c', '--color',
-                         type=parse_color, help='Hex string (eg. #FFFFFF) or string of numbers (eg. "255, 255, 255") of replacement color, numbers outside of range 0-255 are wrapped, have fun. Default ("0, 0, 0")', 
+                         type=parse_color, help='Hex string (eg. "#FFFFFF") or string of numbers (eg. "255, 255, 255") of replacement color, numbers outside of range 0-255 are wrapped, have fun. Default ("0, 0, 0")', 
                          default=("0, 0, 0"), 
                          action="store")
     parser.add_argument('-ns', '--no-subfolder',
