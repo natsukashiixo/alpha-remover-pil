@@ -21,7 +21,7 @@ options:
   -ns, --no-subfolder   Skip creating subfolder for processed images, defaults to creating a new folder
   ```
 
-  Setup:
+ ## Setup:
  
  Clone directory
   ```
@@ -50,7 +50,7 @@ options:
   pip install -r requirements.txt
   ```
 
-  Usage:
+ ## Usage:
 
   No args, opens file/colour dialogs
   ```
