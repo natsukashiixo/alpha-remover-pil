@@ -35,11 +35,29 @@ options:
   ```
   python -m venv venv
   ```
- Activate venv
+ Activate venv (Windows)
   ```
-  ./venv/scripts/activate
+  ./venv/scripts/activate.ps1
   ```
+
+  or: Activate venv (Linux)
+  ```
+  source ./venv/bin/activate
+  ``` 
+
  Install required packages
   ```
   pip install -r requirements.txt
+  ```
+
+  Usage:
+
+  No args, opens file/colour dialogs
+  ```
+  python stripalpha.py
+  ```
+
+  With args, opens no dialogs
+  ```
+  python stripalpha.py --options --go --here
   ```
